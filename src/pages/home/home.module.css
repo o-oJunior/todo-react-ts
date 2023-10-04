@@ -1,0 +1,62 @@
+.homeContainer {
+  margin: 40px 0;
+}
+
+.textContainer {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.input {
+  width: 400px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #c9c9c9;
+  margin: 10px 0;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.textTitle {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.btnContainer {
+  margin: 20px 0;
+}
+
+.btn {
+  width: 400px;
+  height: 36px;
+  background-color: #19abff;
+  color: #fff;
+  font-size: 17px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #33b3fd;
+}
+
+.containerInfo {
+  margin-top: 13px;
+}
+
+.textWarning {
+  color: #c9c9c9;
+}
