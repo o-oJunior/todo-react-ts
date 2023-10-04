@@ -1,0 +1,40 @@
+.listContainer {
+  border-bottom: 1px solid #c9c9c9;
+  width: 400px;
+  padding: 15px 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itemList {
+  padding: 10px 0;
+}
+
+.titleItem {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btnFlatlistContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.btnFlatlist {
+  width: 30px;
+  height: 30px;
+  margin: 5px 0;
+  background-color: #222222;
+}
+
+.btnFlatlist:hover {
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 18px;
+  color: #fff;
+}

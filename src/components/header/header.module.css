@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  width: 100%;
+  background-color: #222222;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.textHeader {
+  color: #19abff;
+}
