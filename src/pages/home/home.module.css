@@ -1,5 +1,7 @@
 .homeContainer {
-  margin: 40px 0;
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 
 .textContainer {
@@ -10,7 +12,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 20px 0;
+  margin: 20px 0 80px 0;
 }
 
 .inputContainer {
@@ -59,4 +61,44 @@
 
 .textWarning {
   color: #c9c9c9;
+}
+
+.containerModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255, 0.4);
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  display: flex;
+  padding: 40px;
+  border: 1px solid #c9c9c9;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.titleEdit {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btnExit {
+  font-size: 25px;
+  background-color: #fff;
+  color: #c4c4c4;
+}
+
+.btnExit:hover {
+  color: #ff0000;
+  cursor: pointer;
 }
